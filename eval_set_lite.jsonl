@@ -1,0 +1,150 @@
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]]], device='cuda:0', grad_fn=<ThAddmmBackward> )", "answer": "2995", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 138}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] x = torch", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 138}
+{"question": "根据材料，句子中[MASK]应填什么？句子：e [MASK]要求计算的所有输入数据都在内存或同一块显卡的显存上", "answer": "PyTorch", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 138}
+{"question": "根据材料，句子中[MASK]应填什么？句子：e [MASK]可以指定用来存储和计算的设备，如使用内存的CPU或者使用显存的CPU", "answer": "PyTorch", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 138}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]          [-0", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 138}
+{"question": "根据材料，句子中[MASK]应填什么？句子：在默认情况下，[MASK]会将数据创建在内存，然后利用CPU来计算", "answer": "PyTorch", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 138}
+{"question": "根据材料，句子中[MASK]应填什么？句子：| 注: 本节与原书此节有一些不同，[MASK]", "answer": "原书传送门", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 138}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] tensor([[-0", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 138}
+{"question": "根据材料，句子中[MASK]应填什么？句子：全连接层和激活函数    [MASK]", "answer": "JS", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 198}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK], 连结后的矩阵乘以伍六与研信连结后的矩阵", "answer": "SH", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 198}
+{"question": "根据材料，句子中[MASK]应填什么？句子：接下来，我们用一个具[MASK]证这一点", "answer": "体的例子来验", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 198}
+{"question": "根据材料，句子中[MASK]应填什么？句子：输入     [MASK]-f             x", "answer": "Xt", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 198}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 含隐藏状态的循环神经网络我们刚刚提到，隐藏状态中妃, WA + A, Wr With SnF xX", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 198}
+{"question": "根据材料，句子中[MASK]应填什么？句子：首先，我们构造答阵xX、Wwxh、[MASK]H和whh，它们的形状分别为(3, D)、(1,4)、(3,", "answer": "8", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 198}
+{"question": "根据材料，句子中[MASK]应填什么？句子：与 w_hh 分别相乘，再把两个乘法运算的结果相加，得到形状为([MASK], 4)的矩阵", "answer": "3", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 198}
+{"question": "根据材料，句子中[MASK]应填什么？句子：将X 与 wxh 、[MASK]", "answer": "8", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 198}
+{"question": "根据材料，句子中[MASK]应填什么？句子：am     [ 连结图[MASK]", "answer": "6", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 198}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 多项式函数拟合实验", "answer": "4", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 6}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 定义、训练和测试模型", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 6}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 训练样本不足 (过拟合)", "answer": "5", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 6}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 三阶多项式函数拟合 (正常)", "answer": "3", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 6}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 线性函数拟合 (RWB)", "answer": "4", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 6}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 鞍点小结参考文献", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] AdaGrad算法", "answer": "5", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 简洁实现小结参考文献", "answer": "4", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 简洁实现小结参考文献", "answer": "3", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 指数加权移动平均", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 由指数加权移动平均理解动量法", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 优化在深度学习中的挑战", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 梯度下降和随机梯度下降", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 小批量随机梯度下降", "answer": "3", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 随机梯度下降小结参考文献", "answer": "4", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 双向循环神经网络小结", "answer": "10", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 简洁实现小结参考文献", "answer": "5", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 深度循环神经网络小结", "answer": "9", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 优化与深度学习的关系", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 12}
+{"question": "根据材料，句子中[MASK]应填什么？句子：:       k=[MASK], wy", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 311}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 层序SOFTMAX", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 311}
+{"question": "根据材料，句子中[MASK]应填什么？句子：现在，[MASK]的梯度计算开销不再与词典大小相关，而与灭线性相关", "answer": "训练中每一步", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 311}
+{"question": "根据材料，句子中[MASK]应填什么？句子：(  i   )   [MASK]     (    :   )", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 311}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]常数时，负采样在每一步的梯度计算开销较小", "answer": "当天取较小的", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 311}
+{"question": "根据材料，句子中[MASK]应填什么？句子：=-—[MASK]  Ul vj,  一           logo  Uj Vi,", "answer": "loga", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 311}
+{"question": "根据材料，句子中[MASK]应填什么？句子：正向传播在循环神经网络中比较直观，而通过时间反向传播其实是反向传播在循环神经网络中[MASK]", "answer": "的具体应用", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 217}
+{"question": "根据材料，句子中[MASK]应填什么？句子：我们需要将循环神经网络按[MASK]，从而得到模型变量和参数之间的依赖关系，并依据链式法则应用反向传播计算并存储梯度", "answer": "时间步展开", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 217}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]节 (正向传播、反向传播和计算图) 中介绍了神经网络中梯度计算与存储的一般思路，并强调正向传播和反向传播相互依赖", "answer": "14", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 217}
+{"question": "根据材料，句子中[MASK]应填什么？句子：e [MASK]不仅需要找出图像里面所有感兴趣的目标，而且要知道它们的位置", "answer": "在目标检测里", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]        q", "answer": "100", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]      lhe x 4", "answer": "400", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]，导入本节需要的包或模块", "answer": "首先", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：这里我们介绍其中的一种方法: 它以每个像素为中心生成多个大小和窝高比 ([MASK] ratio) 不同的边界框", "answer": "aspect", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]用的区域采样方法可能不同", "answer": "不同的模型使", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]     200    400    600", "answer": "0", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：| 注: [MASK]与原书基本相同，原书传送门", "answer": "除代码外本节", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]      Sa", "answer": "ae", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：这里我们新引入了 [MASK] 包，并修改了NumPy的打印精度", "answer": "contrib", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：位置一般由和[MASK]表示", "answer": "矩形边界框来", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]       Fm    he", "answer": "200", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：并调整区域边缘从而更准确地预测目标的真实边界框 ([MASK]-truth bounding box)", "answer": "ground", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]      ST", "answer": "500", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]基于锚框实践目标检测", "answer": "我们将在后面", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 锚框目标检测算法通常会在输入图像中采样大量的区域，然后判断这些区域中是否包含我们感兴趣的目标，", "answer": "4", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]      a      re", "answer": "300", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：这些边界框被称为锚框 ([MASK] box)", "answer": "anchor", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 299}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] *= math", "answer": "score", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：num_matches += [MASK]", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] label_subs[''", "answer": "if", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]_seq_len)", "answer": "max", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]_tokens = translate(encoder, decoder, input_seq,", "answer": "pred", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：for i in range(len_pred - n + [MASK]):", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]_subs[''", "answer": "label", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：join(pred_tokens[i: i + n])] > [MASK]", "answer": "0:", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]_tokens = label_seq", "answer": "label", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：pow(num_matches / (len_pred - n + [MASK]),", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK](' ')", "answer": "split", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] score(input_seq, label_seq, k):", "answer": "def", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] score", "answer": "return", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：join(pred_tokens[i: i + n])] -= [MASK]", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 363}
+{"question": "根据材料，句子中[MASK]应填什么？句子：Өഖ[MASK]ڍහጱᦇᓒ̶౯ժԏڹ൉ک҅ശᎱݒᰁݢአԭ᭿عऴ꧌ᶱ੒ഖ०ڍහᦇᓒጱ୽ߥ̶", "answer": "०", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 321}
+{"question": "根据材料，句子中[MASK]应填什么？句子：֢ԅྲ᫾҅ӥᶎਖ਼՗ᵭ୏তਫሿԫزԻ݉ᆬഖ[MASK]ڍහጱᦇᓒ҅ଚ໑ഝശᎱݒᰁmask \u0003ᦇᓒശᎱԅ1ጱᶼ", "answer": "०", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 321}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] forward(self, inputs, targets, mask=None):", "answer": "def", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 321}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]෸҅ፘଫ֖ᗝጱᶼၥ꧊޾ຽᓋਖ਼݇Өഖ०ڍහጱᦇᓒҔ୮ശᎱԅ0෸҅ፘଫ֖ᗝጱᶼၥ꧊޾ຽᓋڞӧ݇", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 321}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]ഝᨮ᯻໏Ӿ ഖ०ڍ හጱਧԎ ҅ ౯ժ ݢզ ֵ አԫ ز Ի ݉ᆬഖ०ڍ හ, ӥ ᶎਧ", "answer": "໑", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 321}
+{"question": "根据材料，句子中[MASK]应填什么？句子：꧊஑Ӟ൉ጱฎ҅[MASK]ժݢզ᭗ᬦശᎱݒᰁ೰ਧੜಢᰁӾ݇Өഖ०ڍහᦇᓒጱ᮱ړᶼၥ꧊޾ຽᓋғ୮ശᎱԅ", "answer": "౯", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 321}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] __init__(self): # none mean sum", "answer": "def", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 321}
+{"question": "根据材料，句子中[MASK]应填什么？句子：Ԏ [MASK]yCrossEntropyLoss ̶", "answer": "SigmoidBinar", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 321}
+{"question": "根据材料，句子中[MASK]应填什么？句子：__[MASK]__()", "answer": "init", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 321}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] SigmoidBinaryCrossEntropyLoss(nn", "answer": "class", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 321}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK](SigmoidBinaryCrossEntropyLoss, self)", "answer": "super", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 321}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]ᬦsave ڍහ޾load_state_dict ڍහݢզஉො׎ࣈ᧛ٟཛྷࣳጱ݇හ̶", "answer": "᭗", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 134}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]-smi  # ੒Linux/macOSአಁํප", "answer": "nvidia", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 134}
+{"question": "根据材料，句子中[MASK]应填什么？句子：Sun Mar [MASK] 14:59:57 2019", "answer": "17", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 134}
+{"question": "根据材料，句子中[MASK]应填什么？句子：PyTorch GPUᇇ๜̶ٵ॓ૡ֢[MASK]ਠ౮ݸ҅ӥᶎ੪ݢզ᭗ᬦnvidia-smi ޸ե๶ັ፡ดܜמ௳ԧ̶", "answer": "᮷", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 134}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]ᬦsave ڍහ޾load ڍහݢզஉො׎ࣈ᧛ٟ Tensor ̶", "answer": "᭗", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 134}
+{"question": "根据材料，句子中[MASK]应填什么？句子：ӧड़ṛප̶ࣁ๜ᜓӾ҅[MASK]ժਖ਼Օᕨইֵ֜አܔࣘNVIDIA GPU๶ᦇᓒ̶ಅզᵱᥝᏟכ૪ᕪਞᤰঅԧ", "answer": "౯", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 134}
+{"question": "根据材料，句子中[MASK]应填什么？句子：کፓڹԅྊ҅[MASK]ժӞፗࣁֵአCPUᦇᓒ̶੒॔๥ጱᐟᕪᗑᕶ޾य़ᥢཛྷጱහഝ๶᧔ֵ҅አCPU๶ᦇᓒݢᚆ", "answer": "౯", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 134}
+{"question": "根据材料，句子中[MASK]应填什么？句子：| NVIDIA-SMI [MASK]", "answer": "390", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 134}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]                 Driver Version: 390", "answer": "48", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 134}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]} fafa", "answer": "oeteteyetsts", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 341}
+{"question": "根据材料，句子中[MASK]应填什么？句子：为提升计算性能，[MASK]同长度的时序样本组成一个小批量，并通过在较短序列后附加特殊字符", "answer": "我们常常将不", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 341}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]节 (多输入通道和多输出通道) 一节中介绍了如何在二维卷积层中指定多个输出通道", "answer": "3", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 341}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 时序最大池化层类似地，我们有一维池化层", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 341}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 单输入通道的二维互相关运算图10", "answer": "6", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 341}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]中使用的时序最大池化 (max-overtime pooling) 层实际上对应一维全局最大池化层: 假设输入包含多个通道，各通道由不同时间步上的数值组成，各通道的输出即该通道所有时间步中最大的数值", "answer": "textCNN", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 341}
+{"question": "根据材料，句子中[MASK]应填什么？句子：因此，时序最大池化[MASK]个通道上的时间步数可以不同", "answer": "层的输入在各", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 341}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]中的输出都只有一个通道", "answer": "5", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 341}
+{"question": "根据材料，句子中[MASK]应填什么？句子：类似地，[MASK]一维卷积层指定多个输出通道，从而拓展卷积层中的模型参数", "answer": "我们也可以在", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 341}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]S OMAN ARAM, HEAT SATCPOMN BBR,", "answer": "PVELMAARAENA", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK], ¢ Rs和WE R\"*\" SRBERBSR, AWWERBSBW,, CRU\", MiastHM", "answer": "HW", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：简单起见，我们考虑一个无偏差项的循环神经网络，[MASK]恒等映射 (G(x) = x)", "answer": "且激活函数为", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]的损失函数也定义为", "answer": "时间步数为了", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 过了三二》 (01,4)", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：设时间步[MASK]的损失为(of, W )", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：例如，时间步[MASK]的隐藏状态尹3", "answer": "3", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：的输入为单样本 a, E 有[MASK]，标签为 Wy ，那么隐藏状态 h, < R\"的计算表达式为", "answer": "4", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：的计算依赖模型参数[MASK] 、合jn 、上一时间步隐藏状态ha 以及当", "answer": "Wiz", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：Ay = Ware, + Wrrhi-[MASK],               (34)", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：出层变量[MASK] < RitBA", "answer": "of", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：TD (or, yt)         ([MASK])", "answer": "36", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 模型计算图为了可视化循环神经网络中模型变量和参数在计算中的依赖关系，我们可以绘制模型计算图，如图6", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 218}
+{"question": "根据材料，句子中[MASK]应填什么？句子：\u0003֦ሿࣁྋࣁᖫٟጱդᎱํဌํݢզᤩ“਍ԟ”ጱ[MASK]ړ҅Ԟ੪ฎ᧔҅ฎވํݢզᤩ๢࢏਍ԟදᬰጱ᮱", "answer": "᮱", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 22}
+{"question": "根据材料，句子中[MASK]应填什么？句子：Mind, [MASK](236),", "answer": "59", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 22}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] machinery and intelligence-AM Turing", "answer": "Computing", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 22}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[[MASK]] Machinery, C", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 22}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[[MASK]] Hebb, D", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 22}
+{"question": "根据材料，句子中[MASK]应填什么？句子：Ⴎଶ਍ԟ[MASK]ᕪ᭑Ⴙᄍݒ౮Ӟӻૡᑕ૵޾ᑀ਍ਹጲݢֵአጱฦᭇૡ̶ٍ", "answer": "૪", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 22}
+{"question": "根据材料，句子中[MASK]应填什么？句子：Ⴎଶ਍ԟಅचԭጱᐟᕪᗑᕶཛྷࣳ޾አහഝᖫᑕጱ[MASK]ஞ௏మਫᴬӤ૪ᕪᤩᎸᑪԧහጯଙ̶", "answer": "໐", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 22}
+{"question": "根据材料，句子中[MASK]应填什么？句子：a [MASK]ocigal theory", "answer": "neuropsychol", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 22}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] organization of behavior", "answer": "The", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 22}
+{"question": "根据材料，句子中[MASK]应填什么？句子：device='cuda:[MASK]'))", "answer": "0", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 183}
+{"question": "根据材料，句子中[MASK]应填什么？句子：(tensor([ [MASK]", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 183}
+{"question": "根据材料，句子中[MASK]应填什么？句子：device='cuda:[MASK]'),", "answer": "0", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 183}
+{"question": "根据材料，句子中[MASK]应填什么？句子：tensor([ [MASK]", "answer": "0", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 183}
+{"question": "根据材料，句子中[MASK]应填什么？句子：tensor([[[MASK]", "answer": "27", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]_grad_(True)", "answer": "requires", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：]], grad_fn=<MulBackward>) tensor([MASK]", "answer": "27", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]_grad) # False", "answer": "requires", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：z = y * y * [MASK]", "answer": "3", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：<MeanBackward[MASK]>)", "answer": "1", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK](z, out)", "answer": "print", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：a = ((a * [MASK]) / (a - 1))", "answer": "3", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：, [MASK]_fn=", "answer": "grad", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：randn([MASK], 2) # ᗌ०ఘ٭ӥἕᦊ requires_grad = False", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]_grad) # True", "answer": "requires", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：<SumBackward[MASK] object at 0x118f50cc0>", "answer": "0", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 37}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] 含3个输入通道的一维互相关运算让我们复现图10", "answer": "5", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 340}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]xl+1l1x2+1x3+2x4+2x(-1)+3x(-3)=2", "answer": "0", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 340}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK]中多输入通道的一维互相关运算的结果", "answer": "5", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 340}
+{"question": "根据材料，句子中[MASK]应填什么？句子：[MASK] Tis ber} LEP -", "answer": "CT", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 340}
+{"question": "根据材料，句子中[MASK]应填什么？句子：P[MASK]tatetstotrts} fafa", "answer": "2", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 340}
+{"question": "根据材料，句子中[MASK]应填什么？句子：加四四看四面[MASK]", "answer": "面而前回回", "gold_source": "Dive-into-DL-Pytorch.pdf", "gold_page": 340}
