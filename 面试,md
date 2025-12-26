@@ -1,0 +1,76 @@
+下面给你一段“面试可直接口述/写到 README”的详细项目介绍（偏 AI 应用工程师视角：问题—方案—架构—关键技术—评测—工程化—难点与取舍）。你可以按需删减成 1 分钟 / 3 分钟版本。
+项目介绍：SmartBook RAG（基于 LangChain + Ollama 的本地知识库问答）
+1. 项目背景与目标
+很多学习/工作资料（教材 PDF、技术文档、公司内部文件）内容长、结构复杂，用户想问“某个概念/公式/步骤在文档哪里、怎么解释”时，传统关键词搜索效率低且容易漏掉关键信息。
+这个项目的目标是做一个本地可部署的 RAG（Retrieval-Augmented Generation）应用：
+用户上传 PDF/TXT 文档后，系统自动构建向量索引；用户提问时，系统先从文档中检索证据，再让大模型只基于证据回答，并提供引用来源，降低幻觉，提高可解释性。
+2. 核心能力与功能亮点
+2.1 文档上传与解析（支持大文件与 OCR 回退）
+提供 POST /upload（兼容简单上传）和 POST /upload_stream（SSE 流式推送进度，避免大文件超时）。
+PDF 解析基于 PyMuPDF：如果页面文本为空或乱码，会自动触发 OCR 回退，提升对扫描版/加密版/字体异常 PDF 的可用性。
+解析结果保留 source 与 page 元数据，便于后续引用溯源。
+2.2 RAG 问答（检索 + 可选 rerank + 生成）
+提供 POST /ask（一次性返回）和 GET /ask_stream（SSE 流式返回）：
+先返回检索到的 sources（可在前端展示引用）
+再逐 token / 分段输出生成内容，显著改善交互体验
+2.3 可配置、可调参、可做实验
+系统支持通过环境变量控制关键参数（便于做 ablation 与性能/质量权衡）：
+Chunking：CHUNK_SIZE, CHUNK_OVERLAP
+Retrieval：RETRIEVAL_METHOD（默认 MMR）, RETRIEVAL_FETCH_K
+Re-rank：RERANK, RERANK_CANDIDATES, RERANK_MAX_LENGTH, RERANKER_MODEL
+LLM 性能：LLM_NUM_PREDICT, LLM_NUM_CTX, OLLAMA_KEEP_ALIVE
+Embedding：EMBED_MODEL, EMBED_LOCAL_DIR
+3. 系统架构与数据流（从上传到问答）
+3.1 Ingestion 流程（离线/预处理）
+1) 解析：PDF 按页提取文本；异常则 OCR
+2) 切分：RecursiveCharacterTextSplitter，将长文本切成 chunk（可配置 size/overlap）
+3) 向量化：使用 HuggingFace Embedding（优先 BGE 系列并启用 normalize）
+4) 存储与索引：FAISS 本地向量库持久化（backend/data/vectors）
+3.2 Query 流程（在线推理）
+1) 检索：默认 MMR，减少 top-k 重复、提升覆盖
+2) 可选重排序：用 cross-encoder（FlagEmbedding reranker）对候选 chunk rerank，提高 top-k 证据质量
+3) 生成：用 Ollama 本地模型（如 qwen2.5:3b-instruct）根据上下文回答
+4) 输出：返回答案 + 引用来源（source/page），流式模式先发 sources 再发答案
+4. 关键技术点（面试官常问）
+4.1 为什么用 MMR？解决什么问题？
+教材/长文档中相关段落经常集中在同一页附近，纯向量相似度检索容易返回“内容高度重复的几段”，导致覆盖不足。
+MMR 在相关性之外加入多样性，使证据覆盖不同位置，通常能提升 Hit@k 和回答稳定性。
+4.2 为什么需要 rerank？
+向量检索更像“粗排”（召回强但排序未必精确），rerank（cross-encoder）是“精排”，更擅长判断 query 与 chunk 是否真正匹配。
+代价是延迟增加，所以我把它做成开关，并通过 candidates/max_length 控制成本。
+4.3 如何控制端到端延迟？
+控制检索规模：top_k、fetch_k、rerank candidates
+控制 rerank 输入长度：max_length
+控制 LLM 输出：LLM_NUM_PREDICT（降低生成 token 数）
+流式输出（SSE）让用户体验更好，即使总耗时较长也能“先看到结果”。
+4.4 如何降低幻觉？
+Prompt 强制：只能依据上下文回答，没有证据就明确说明找不到
+返回 sources 让用户可核验（面试建议你再加：引用 chunk 摘要/高亮）。
+5. 评测与实验（工程化优化）
+我写了自动评测脚本与 sweep（run_sweep.bat），对不同组合进行对比：
+不同 chunk 粒度（800/120 vs 350/80）
+top_k（3 vs 5）
+rerank 开关与候选数
+输出长度限制（num_predict）
+评测指标包括：
+Retrieval Hit@k（正确证据是否在 top-k）
+生成质量（F1、语义相似度）
+延迟统计（p50/p95）
+覆盖率（能回答/有证据的比例）
+并把每次 run 的参数快照与结果自动追加到 eval_results.md，保证可复现、可对比。
+> 实际开发中我也遇到“脚本参数名变了但 rerank 实际没关”的问题，最后定位到 bat 脚本中环境变量被下游覆盖；修复后实现真正的 ablation。这部分能体现排错能力与工程严谨性。
+6. 工程实现与代码组织（你可以指着讲）
+backend/main.py：FastAPI 服务，提供上传、问答、流式接口
+backend/rag.py：核心 RAG 逻辑（解析/OCR、split、embedding、FAISS、retrieval、rerank、generation chain）
+backend/eval_lite.py：构建评测集与跑评测
+run_eval*.bat / run_sweep.bat：一键评测与扫参脚本
+frontend/app.py：前端 demo（Streamlit），用于展示上传与问答体验
+7. 下一步可扩展（面试时的“未来工作”）
+如果进一步产品化，我会做：
+更强的引用展示：返回 chunk 片段、页码、相似度/rerank 分数，高亮命中句
+多文档知识库管理：不同库切换、增量更新、删除文档
+Query 改写与多轮对话记忆：提升真实使用场景下的可用性
+缓存与并发优化：embedding 缓存、检索缓存、异步任务队列（Celery/RQ）
+1 分钟口述版（你面试时可以直接背）
+“我做了一个本地可部署的 RAG 问答应用。用户上传 PDF 后，系统用 PyMuPDF 解析，遇到乱码或扫描版会 OCR 回退，然后按可配置 chunk 切分并用 BGE embedding 建 FAISS 向量库。提问时默认用 MMR 检索提高证据覆盖，也支持可选 cross-encoder rerank 提升排序精度。生成端用 Ollama 跑本地模型，强制只基于上下文回答并返回来源页码。后端用 FastAPI，同时实现了 SSE：上传进度流式推送、回答流式输出。为了做工程化优化，我写了扫参脚本对 chunk、top_k、rerank、输出长度等做 ablation，并记录命中率、生成质量和延迟，最终选出性价比配置用于 demo。”
+如果你告诉我：你希望面试时主打哪条线（更偏 RAG/NLP效果优化、还是更偏 后端工程与产品化），我可以把这段介绍再改成更符合岗位 JD 的版本，并给你一页 README（含架构图文字版、启动命令、demo 流程、亮点 bullet）。
